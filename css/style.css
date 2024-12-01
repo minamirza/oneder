@@ -12,6 +12,8 @@ header {
     color: white;
     text-decoration: none;
     font: 800 25px arial;
+    margin-left: 50px;
+    text-transform: uppercase;
 }
 
 .nav-bar {
@@ -27,8 +29,8 @@ header {
 .nav-bar ul {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    width: 600px;
+    gap: 50px;
+    width: 800px;
 }
 
 ul a {
@@ -60,7 +62,7 @@ ul a {
 }
 
 .dropdown-content a {
-    color: blue;
+    color: rgb(0, 0, 0);
     padding: 12px 15px;
     display: block;
 }
@@ -68,8 +70,34 @@ ul a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .header-content {
     display: inline;
-    margin: 300px 50px 0 50px;
+    margin: 200px 50px 0 50px;
     align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.header-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font: 200 16px "Atkinson Hyperlegible", sans-serif;
 }
