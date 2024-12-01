@@ -1,0 +1,17 @@
+header {
+   background: url(../img/hero_1.jpg)center/cover; 
+   height: 100vh;
+}
+.container { 
+    width: 1300px;
+    margin: 0 auto; 
+}
+.logo {
+
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
