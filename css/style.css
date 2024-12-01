@@ -1,43 +1,55 @@
-.container { 
+.container {
     width: 1300px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+
 header {
-   background: linear-gradient(#0000005b,#0000005b), url(../img/hero_1.jpg)center/cover; 
-   height: 100vh;
+    background: linear-gradient(#0000005b, #0000005b), url(../img/hero_1.jpg)center/cover;
+    height: 100vh;
 }
+
 .logo a {
     color: white;
     text-decoration: none;
-    font: 700 25px w;
+    font: 800 25px arial;
 }
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.nav-bar ul{
+
+.nav-bar ul {
     display: flex;
     justify-content: space-between;
     gap: 30px;
     width: 600px;
 }
+
 ul a {
     color: white;
     text-decoration: none;
     font: 500 15px arial;
 }
+
 .fa-angle-down {
     margin-left: 10px;
 }
+
 .fa-angle-right {
     margin-left: 10px;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -46,11 +58,18 @@ ul a {
     box-shadow: 0px 8px 16px 0px rgba(94, 93, 93, 0.2);
     z-index: 1;
 }
+
 .dropdown-content a {
     color: blue;
     padding: 12px 15px;
     display: block;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.header-content {
+    display: inline;
+    margin: 300px 50px 0 50px;
+    align-items: center;
 }
