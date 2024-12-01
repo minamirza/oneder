@@ -3,23 +3,19 @@
     margin: 0 auto; 
 }
 header {
-   background: url(../img/hero_1.jpg)center/cover; 
+   background: linear-gradient(#0000005b,#0000005b), url(../img/hero_1.jpg)center/cover; 
    height: 100vh;
 }
-.logo{
-    color: #fff;
-    font: 700 25px arial;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    width: 600px;
+.logo a {
+    color: white;
+    text-decoration: none;
+    font: 700 25px w;
 }
 .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
- 
 }
 .nav-bar ul{
     display: flex;
@@ -28,8 +24,9 @@ header {
     width: 600px;
 }
 ul a {
-    color: blue;
+    color: white;
     text-decoration: none;
+    font: 500 15px arial;
 }
 .fa-angle-down {
     margin-left: 10px;
