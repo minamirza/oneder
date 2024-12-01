@@ -7,7 +7,7 @@ header {
     margin: 0 auto; 
 }
 .logo {
-
+padding-right: 50px;
 }
 .nav-bar ul {
     display: flex;
