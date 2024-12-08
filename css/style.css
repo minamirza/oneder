@@ -626,7 +626,7 @@ ul a {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #6d6d6d;
+    height: 300px;
 
     h2 {
         font: 400 18px "Atkinson Hyperlegible", sans-serif;
