@@ -510,7 +510,7 @@ ul a {
     align-items: center;
 
     a {
-        font-size: 18px;
+        font: 200 18px "Atkinson Hyperlegible", sans-serif;
         line-height: 1.6;
         color: #007bff;
         margin: 15px 0;
@@ -524,7 +524,7 @@ ul a {
     align-items: center;
 
     a {
-        font-size: 18px;
+        font: 200 18px "Atkinson Hyperlegible", sans-serif;
         line-height: 1.6;
         color: #007bff;
         margin: 15px 0;
