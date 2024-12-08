@@ -192,7 +192,7 @@ ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font: 600 30px "Atkinson Hyperlegible", sans-serif;
+    font: 600 32px "Atkinson Hyperlegible", sans-serif;
     color: #007bff;
 }
 
@@ -259,7 +259,7 @@ ul a {
 }
 
 .testimonials-head {
-    font: 600 30px "Atkinson Hyperlegible", sans-serif;
+    font: 600 32px "Atkinson Hyperlegible", sans-serif;
     color: #007bff;
 }
 
@@ -305,7 +305,7 @@ ul a {
 }
 
 .pricing-content-head {
-    font: 600 30px "Atkinson Hyperlegible", sans-serif;
+    font: 600 32px "Atkinson Hyperlegible", sans-serif;
     color: #007bff;
     justify-content: center;
     text-align: center;
@@ -353,7 +353,7 @@ ul a {
 }
 
 .questions-content-head {
-    font: 600 30px "Atkinson Hyperlegible", sans-serif;
+    font: 600 32px "Atkinson Hyperlegible", sans-serif;
     color: #007bff;
     justify-content: center;
     text-align: center;
@@ -423,7 +423,7 @@ ul a {
 }
 
 .our-blog-content h2 {
-    font: 600 30px "Atkinson Hyperlegible", sans-serif;
+    font: 600 32px "Atkinson Hyperlegible", sans-serif;
     color: #007bff;
     justify-content: center;
     text-align: center;
@@ -433,17 +433,35 @@ ul a {
 .blog-content {
     display: flex;
     justify-content: space-around;
+    margin: 0 20px;
 
     h3 {
-        font: 500 20px "Atkinson Hyperlegible", sans-serif;
+        font: 500 19px "Atkinson Hyperlegible", sans-serif;
         color: #000000;
+        margin: 15px 0;
     }
-    p{
-        font-size: 14px;
+
+    p {
+        font: 500 16px "Atkinson Hyperlegible", sans-serif;
         line-height: 1.6;
         color: #555;
-        padding-bottom: 15px;
+        margin: 15px 0;
+    }
+    a {
+        font: 500 16px "Atkinson Hyperlegible", sans-serif;
+        text-decoration: none;
+        color: #007bff;
     }
 }
 
-.blog
+.blog-1,
+.blog-2,
+.blog-3 {
+    width: 300px;
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #555;
+        margin: 15px 0;
+    }
+}
