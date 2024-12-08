@@ -422,9 +422,11 @@ ul a {
         color: #007bff;
     }
 }
+
 .our-blog-content {
     background-color: #fff;
 }
+
 .our-blog-content h2 {
     font: 600 32px "Atkinson Hyperlegible", sans-serif;
     color: #007bff;
@@ -470,10 +472,12 @@ ul a {
         margin: 15px 0;
     }
 }
+
 .contact-content {
     display: flex;
     justify-content: center;
 }
+
 .contact h2 {
     font: 600 32px "Atkinson Hyperlegible", sans-serif;
     color: #007bff;
@@ -481,20 +485,24 @@ ul a {
     text-align: center;
     margin: 80px;
 }
+
 .contact i {
-        font-size: 25px;
-        color: #007bff;
+    font-size: 25px;
+    color: #007bff;
 }
+
 .contact p {
     font: 500 19px "Atkinson Hyperlegible", sans-serif;
     color: #000000;
     margin: 15px 0;
 }
-.adress {    
+
+.adress {
     width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     p {
         font-size: 18px;
         line-height: 1.6;
@@ -503,6 +511,7 @@ ul a {
         text-align: center;
     }
 }
+
 .phone {
     width: 500px;
     display: flex;
@@ -517,6 +526,7 @@ ul a {
         text-decoration: none;
     }
 }
+
 .mail {
     width: 500px;
     display: flex;
@@ -530,4 +540,79 @@ ul a {
         margin: 15px 0;
         text-decoration: none;
     }
+}
+
+.contact-form {
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.contact-form h2 {
+    font: 500 25px "Atkinson Hyperlegible", sans-serif;
+    color: #000000;
+    margin: 15px 0;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h3 {
+        font: 400 16px "Atkinson Hyperlegible", sans-serif;
+        color: #000000;
+    }
+}
+.name-input {
+    font: 500 18px "Atkinson Hyperlegible", sans-serif;
+    color: #000000;
+    border: 1px solid #555;
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+    outline: none;
+}
+.name-input:hover {
+    cursor: pointer;
+    border: 1px solid #007bff;
+}
+.form-input {
+    font: 500 18px "Atkinson Hyperlegible", sans-serif;
+    color: #000000;
+    border: 1px solid #555;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    outline: none;
+
+}
+.form-input:hover {
+    cursor: pointer;
+    border: 1px solid #007bff;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        font: 400 16px "Atkinson Hyperlegible", sans-serif;
+        color: #000000;
+        margin: 15px 0;
+    }
+}
+
+.form textarea {
+    font: 500 18px "Atkinson Hyperlegible", sans-serif;
+    color: #000000;
+    border: 1px solid #555;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+    outline: none;
+}
+.form textarea:hover {
+    cursor: pointer;
+    border: 1px solid #007bff;
 }
