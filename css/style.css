@@ -8,6 +8,10 @@ header {
     height: 100vh;
 }
 
+body {
+    background-color: aliceblue;
+}
+
 .logo a {
     color: white;
     text-decoration: none;
@@ -107,11 +111,13 @@ ul a {
     height: 50px;
     font: 200 16px "Atkinson Hyperlegible", sans-serif;
 }
+
 .header-button:hover {
     background-color: #000000;
     color: white;
     transition: 0.4s;
 }
+
 .about-content {
     display: flex;
     align-items: center;
@@ -138,6 +144,7 @@ ul a {
         align-items: center;
         font: 500 30px "Atkinson Hyperlegible", sans-serif;
     }
+
     i {
         padding: 0 10px;
         color: #038f13ea;
@@ -162,18 +169,20 @@ ul a {
     margin-top: 20px;
     background-color: #007bff;
     color: white;
-    border: none;S
-    cursor: pointer;
+    border: none;
+    S cursor: pointer;
     border-radius: 50px;
     width: 150px;
     height: 50px;
     font: 200 16px "Atkinson Hyperlegible", sans-serif;
 }
+
 .about-button:hover {
     background-color: #000000;
     color: white;
     transition: 0.4s;
 }
+
 .our-team-part {
     margin: 50px 0;
 }
@@ -204,15 +213,19 @@ ul a {
     width: 100%;
 }
 
-.our-team-content1 h3 {
+.our-team-content h3 {
     font: 200 15px "Atkinson Hyperlegible", sans-serif;
     color: #000000;
+    padding-top: 20px;
 }
 
 .our-team-content img {
     width: 280px;
+}
 
-    padding-bottom: 20px;
+.our-team-content img:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.289);
 }
 
 .img-and-text h3 {
@@ -235,8 +248,9 @@ ul a {
     width: 600px;
 }
 
-.testimonials-content p{ 
-    margin-bottom: 400 20px "work sans";
+.testimonials-content p {
+    margin: 50px 50px;
+    font: 400 20px "work sans";
     text-align: center;
     line-height: 1.7;
     font-size: 1.2em;
@@ -265,4 +279,70 @@ ul a {
 .testimonials-profile p {
     font-weight: bold;
     color: #007bff;
+}
+
+.pricing-content {
+    margin: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    font: 200 18px Arial;
+    line-height: 35px;
+
+    p {
+        padding-top: 10px;
+        color: #6d6d6d;
+    }
+
+    h3 {
+        align-items: center;
+        font: 500 30px "Atkinson Hyperlegible", sans-serif;
+    }
+
+    i {
+        padding: 0 10px;
+        color: #038f13ea;
+    }
+}
+
+.pricing-content-head {
+    font: 600 30px "Atkinson Hyperlegible", sans-serif;
+    color: #007bff;
+    justify-content: center;
+    text-align: center;
+    margin: 80px;
+}
+
+.pricing-content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 50%;
+    height: 50px;
+    font: 200 16px "Atkinson Hyperlegible", sans-serif;
+}
+
+.pricing-content button:hover {
+    background-color: #000000;
+    color: white;
+    transition: 0.4s;
+}
+
+.pricing-content h2 {
+    font: 500 25px "Atkinson Hyperlegible", sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.number {
+    display: flex;
+    font: 400 48px "Atkinson Hyperlegible", sans-serif;
+    color: #007bff;
+    justify-content: center;
+    text-align: center;
 }
