@@ -334,18 +334,24 @@ ul a {
 }
 
 .pricing-content h2 {
-    font: 500 25px "Atkinson Hyperlegible", sans-serif;
+    font: 500 27px "Atkinson Hyperlegible", sans-serif;
     justify-content: center;
     text-align: center;
 }
 
-.number {
-    display: flex;
-    font: 400 48px "Atkinson Hyperlegible", sans-serif;
-    color: #007bff;
-    justify-content: center;
+.pricing {
+    font: 200 18px "Work Sans", sans-serif;
+    color: #6d6d6d;
     text-align: center;
-}
+    margin: 10px 0;
+  }
+  
+  .pricing .price {
+    font: 200 40px "Work Sans", sans-serif;
+    color: #007bff;
+    font-weight: bold; 
+  }
+
 .questions-content-head {
     font: 600 30px "Atkinson Hyperlegible", sans-serif;
     color: #007bff;
@@ -353,9 +359,11 @@ ul a {
     text-align: center;
     margin: 80px;
 }
+
 .question-part-two {
     padding-left: 100px;
 }
+
 .questions-content-text {
     display: flex;
     justify-content: space-around;
@@ -372,8 +380,44 @@ ul a {
     color: #acacac;
     margin: 20px 0 20px 0;
 }
+
 .img-web {
     width: 520px;
     height: 350px;
+    margin-left: 50px;
 }
-.mobile-web
+
+.web-mobile {
+    width: 500px;
+}
+
+.mobile-web {
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: space-around;
+
+    h3 {
+        font: 300 20px "Atkinson Hyperlegible", sans-serif;
+        margin: 10px 0;
+        color: #000;
+        padding: 10px 0;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #555;
+        padding-bottom: 15px;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    i {
+        font-size: 50px;
+        color: #007bff;
+    }
+}
