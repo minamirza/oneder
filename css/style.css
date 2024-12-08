@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #fafafa;
 }
 
 .logo a {
@@ -170,7 +170,7 @@ ul a {
     background-color: #007bff;
     color: white;
     border: none;
-    S cursor: pointer;
+    cursor: pointer;
     border-radius: 50px;
     width: 150px;
     height: 50px;
@@ -346,3 +346,34 @@ ul a {
     justify-content: center;
     text-align: center;
 }
+.questions-content-head {
+    font: 600 30px "Atkinson Hyperlegible", sans-serif;
+    color: #007bff;
+    justify-content: center;
+    text-align: center;
+    margin: 80px;
+}
+.question-part-two {
+    padding-left: 100px;
+}
+.questions-content-text {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.questions-content-text h3 {
+    font: 500 20px "Atkinson Hyperlegible", sans-serif;
+    color: #000000;
+}
+
+.questions-content-text p {
+    font: 300 20px "Atkinson Hyperlegible", sans-serif;
+    color: #acacac;
+    margin: 20px 0 20px 0;
+}
+.img-web {
+    width: 520px;
+    height: 350px;
+}
+.mobile-web
